@@ -31,6 +31,10 @@ app.get("/about",(req, res)=>{
     res.send("This is my about API")
 });
 
+app.get("/contact",(req, res)=>{
+    res.send("This is my contact API")
+});
+
 
 app.listen(process.env.PORT, ()=>[
     console.log("Server is running on port 8080")
